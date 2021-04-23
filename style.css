@@ -47,15 +47,17 @@ div.slideContainer img {
 	position: absolute;
 	left: 0;
 	top: 0;
-	opacity: 0;
+	
+	/* transform: scale(0); */
 	transform: scaleX(0);
+	opacity: 0;
 	transition: all 0.5s ease-in-out 0.2s;
 }
 
 div.slideContainer img.active {
+	/* transform: scale(1); */ 
 	transform: scaleX(1);
 	opacity: 1;
-
 }
 
 
